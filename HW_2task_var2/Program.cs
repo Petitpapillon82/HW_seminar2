@@ -11,5 +11,5 @@
 Console.Clear();
 Console.WriteLine("Введите число:");
 int n = int.Parse(Console.ReadLine());
-        Console.WriteLine(n > 99 ? n.ToString()[2] : "Третьей цифры нет");
+        Console.WriteLine(n > 99 ? n.ToString()[2]+" третья цифра введенного числа": "Третьей цифры нет");
         Console.ReadKey(true); 
